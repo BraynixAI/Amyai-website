@@ -1,4 +1,8 @@
 import Choose from "@/components/HomePage/choose";
+import Collaboretion from "@/components/HomePage/collaboretion";
+import Contact from "@/components/HomePage/contact";
+import Discover from "@/components/HomePage/discover";
+import LatestNews from "@/components/HomePage/latest";
 import Offer from "@/components/HomePage/offer";
 import PotentialPage from "@/components/HomePage/potential";
 import Welcome from "@/components/HomePage/welcome";
@@ -11,9 +15,13 @@ function index() {
     <div>
       <AppBar />
       <Welcome />
-      <PotentialPage />
+      {/* <PotentialPage /> */}
       <Offer />
       <Choose />
+      <Discover />
+      <LatestNews />
+      <Collaboretion />
+      <Contact />
       <FooterPage />
     </div>
   );
