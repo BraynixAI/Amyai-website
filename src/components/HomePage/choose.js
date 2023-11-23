@@ -19,7 +19,7 @@ function Choose() {
             <p className="font-bold lg:font-semibold text-2xl lg:text-4xl my-2 pt-4 lg:pt-0">
               Why Choose Us
             </p>
-            <p className=" text-sm text-gray-400 mt-2">
+            <p className=" text-sm text-gray-400 lg:mt-5 mt-3">
               Your Partner in Technology Success
             </p>
           </div>
@@ -29,36 +29,58 @@ function Choose() {
         {/* <div className="lg:space-x-5 space-x-2  lg:ml-10 "> */}
         {/* <div className=" lg:w-3/5   "> */}
         <div className="flex overflow-x-scroll md:overflow-x-hidden w-full  lg:w-1/2  lg:ml-10 text-sm text-gray-500 font-medium">
-          <button
-            className={` ${
-              tab === 1
-                ? " flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md  bg-blue-400 text-white"
-                : " flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md border-b-2 text-black "
-            }`}
-            onClick={() => handelOnClick(1)}
-          >
-            Expertise
-          </button>
-          <button
-            onClick={() => handelOnClick(2)}
-            className={` ${
-              tab === 2
-                ? " flex-1 p-1 md:py-5 md:px-2 font-semibold  shadow-md bg-blue-400 text-white"
-                : " flex-1 p-1 md:py-5 md:px-2 font-semibold text-black shadow-md border-b-2"
-            } `}
-          >
-            Innovation
-          </button>
-          <button
-            onClick={() => handelOnClick(3)}
-            className={` ${
-              tab === 3
-                ? " flex-1 p-1 md:py-5 md:px-2  font-semibold shadow-md bg-blue-400 text-white"
-                : " flex-1 p-1 md:py-5 md:px-2 font-semibold text-black  shadow-md border-b-2"
-            } `}
-          >
-            Client-Centric Approach
-          </button>
+          <div className="flex-1 w-full">
+            <button
+              className={` ${
+                tab === 1
+                  ? "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md  bg-blue-400 text-white"
+                  : "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md border-b-2 text-black "
+              }`}
+              onClick={() => handelOnClick(1)}
+            >
+              Expertise
+            </button>
+            {tab === 1 ? (
+              <div className="triangle-down mx-auto "></div>
+            ) : (
+              <div className="triangle-down-transparent mx-auto "></div>
+            )}
+          </div>
+          <div className="flex-1 w-full">
+            <button
+              className={` ${
+                tab === 2
+                  ? "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md  bg-blue-400 text-white"
+                  : "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md border-b-2 text-black "
+              }`}
+              onClick={() => handelOnClick(2)}
+            >
+              Innovation
+            </button>
+            {tab === 2 ? (
+              <div className="triangle-down mx-auto "></div>
+            ) : (
+              <div className="triangle-down-transparent mx-auto "></div>
+            )}
+          </div>
+          <div className="flex-1 w-full">
+            <button
+              className={` ${
+                tab === 3
+                  ? "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md  bg-blue-400 text-white"
+                  : "w-full flex-1 p-1 md:py-5 md:px-2 font-semibold shadow-md border-b-2 text-black "
+              }`}
+              onClick={() => handelOnClick(3)}
+            >
+              Client-Centric Approach
+            </button>
+            {tab === 3 ? (
+              <div className="triangle-down mx-auto "></div>
+            ) : (
+              <div className="triangle-down-transparent mx-auto "></div>
+            )}
+          </div>
+
           {/* </div> */}
         </div>
         {/* </div> */}
@@ -68,7 +90,7 @@ function Choose() {
               We have a team of experienced professionals in each of our focus
               areas
             </p>
-            <p className="text-gray-500 text-xs lg:mr-36">
+            <p className="text-gray-500 text-xs lg:w-[60%]">
               Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea
               commodo claritatem insitamconse quat.Exerci tation ullamcorper
               suscipit lobort

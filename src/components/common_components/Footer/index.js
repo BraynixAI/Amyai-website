@@ -4,7 +4,7 @@ function FooterPage() {
   return (
     <div className="">
       <footer class="bg-white dark:bg-gray-900 px-5">
-        <div class="mx-auto max-w-screen-xl px- pb-6 pt-16 sm:px-6 lg:px-8">
+        <div class="pb-6 pt-16 sm:px-6 lg:px-8">
           <div className="md:my-5 mb-5">
             <img src="/images/amyai.svg" />
           </div>

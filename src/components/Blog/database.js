@@ -88,7 +88,12 @@ function Database() {
                     type="submit"
                     class="bg-blue-500 text-white px-8 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
                   >
-                    Read More
+                    <a
+                      href="/blog_details"
+                      className="text-white font-normal text-base "
+                    >
+                      Read More
+                    </a>
                   </button>
                 </div>
               </div>

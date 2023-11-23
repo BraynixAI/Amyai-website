@@ -7,8 +7,8 @@ function Offer() {
         <p className="text-center my-5  font-bold text-3xl lg:text-5xl ">
           What We Offer
         </p>
-        <div>
-          <p className="text-center font-normal lg:my-2 px-4 lg:px-64 text-gray-500 leading-6">
+        <div className="flex justify-center">
+          <p className="text-center font-normal lg:my- lg:w-[55%] px-4  text-gray-500 lg:leading-8 leading-6">
             Alii autem, quibus ego assentior, cum teneam sententiam, quid aut
             fugiat aliquid, praeter voluptatem accusantium doloremque
             laudantium, totam rem voluptas in voluptate ponit.
@@ -19,8 +19,8 @@ function Offer() {
           </p> */}
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mx-8 lg:mx-10 lg:my-10">
-        <div className="border">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mx-8 lg:mx-14 lg:my-10">
+        <div className="border shadow-md">
           <div className="flex justify-between">
             <img src="/images/grp1.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />
@@ -37,8 +37,8 @@ function Offer() {
             </p>
           </div>
         </div>
-        <div>
-          <div className="flex justify-between">
+        <div className="">
+          <div className="flex justify-between ">
             <img src="/images/grp3.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />
           </div>
@@ -55,7 +55,7 @@ function Offer() {
           </div>
         </div>
 
-        <div className="border">
+        <div className="border shadow-md">
           <div className="flex justify-between">
             <img src="/images/grp4.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />

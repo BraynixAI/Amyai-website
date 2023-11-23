@@ -14,6 +14,7 @@ module.exports = {
         "hero-bg": "url('/images/businessLarge.svg')",
         "journey-bg": "url('/images/action.svg')",
         "journey1-bg": "url('/images/Calltoaction.svg')",
+        "unlock-bg": "url('/images/unlockbg.svg')",
       },
     },
   },

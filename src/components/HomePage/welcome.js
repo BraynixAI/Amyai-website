@@ -3,6 +3,7 @@ import React from "react";
 function Welcome() {
   return (
     <div className="bg-[#000E29] lg:p-8 p-5 ">
+      {/* mobile screen views */}
       <div className="lg:hidden grid lg:grid-cols-2 gap-1">
         <div className="">
           <p className=" md:hidden text-center px-3 text-2xl font-bold  text-white">
@@ -25,18 +26,23 @@ function Welcome() {
           <img src="/images/Illustration.svg" className="" />
         </div>
         <div className="my-4 flex flex-col items-center space-y-4">
-          <button className="bg-blue-500 font-semibold text-white rounded-lg px-6 py-2">
+          <button className="bg-blue-500 hover:bg-blue-700 font-semibold text-white rounded-lg px-6 py-2">
             Get in Touch
           </button>
-          <a href="#" className="font-light text-white ">
-            Learn more
-          </a>
+          <div className="flex items-center space-x-2">
+            <a href="#" className="font-light text-white ">
+              Learn more
+            </a>
+            <div className="triangle-right"></div>
+          </div>
         </div>
       </div>
+
+      {/* desktop screen views */}
       <div className="hidden lg:block ">
-        <div className="grid grid-cols-2 gap-1 mx-4">
-          <div className=" ">
-            <p className="px-3 lg:px-0 text-2xl font-bold lg:text-6xl text-white">
+        <div className="grid md:grid-cols-11 gap-1 mx-6">
+          <div className="md:col-span-6">
+            <p className="px-3 lg:px-0 text-2xl font-bold lg:text-7xl text-white">
               Welcome to Amyai Solutions Inc
             </p>
             <p className=" font-normal text-base text-white lg:w-11/12 my-6">
@@ -45,16 +51,19 @@ function Welcome() {
               platform for top-notch technology expertise & a cutting-edge
               service platform, specializing in the following key technologies:
             </p>
-            <div className="space-x-5 my-6">
-              <button className="bg-blue-500 font-semibold text-white rounded-lg px-6 py-2">
+            <div className="flex space-x-5 my-6">
+              <button className="bg-blue-500 hover:bg-blue-700 font-semibold text-white rounded-lg px-6 py-2">
                 Get in Touch
               </button>
-              <a href="#" className="font-light text-white ">
-                Learn more
-              </a>
+              <div className="flex items-center space-x-2">
+                <a href="#" className="font-light text-white ">
+                  Learn more
+                </a>
+                <div className="triangle-right"></div>
+              </div>
             </div>
           </div>
-          <div className="flex justify-end">
+          <div className="md:col-span-5 flex justify-end">
             <img src="/images/Illustration.svg" />
           </div>
         </div>

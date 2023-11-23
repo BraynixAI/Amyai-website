@@ -15,7 +15,7 @@ function index() {
     <div>
       <AppBar />
       <Welcome />
-      {/* <PotentialPage /> */}
+      <PotentialPage />
       <Offer />
       <Choose />
       <Discover />

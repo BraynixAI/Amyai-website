@@ -29,3 +29,27 @@ html {
     )
     rgb(var(--background-start-rgb));
 } */
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(96 165 250);
+}
+
+.triangle-down-transparent {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid white;
+  border-bottom: 5px solid transparent;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 function LatestNews() {
   return (
-    <div className="my-20">
+    <div className="my-20 lg:mx-2">
       <div className="grid lg:grid-cols-2 gap-2 lg:px-10 px-5">
         <div className="flex flex-col lg:justify-center lg:item-center lg:mr-40 ">
           <p className="hidden lg:block font-semibold text-xl lg:text-5xl text-center lg:text-left ">
@@ -29,8 +29,8 @@ function LatestNews() {
             voluptas in voluptate ponit.
           </p>
           <div className="hidden lg:block">
-            <button className="text-white text-sm font-semibold bg-blue-400 py-3 px-8 rounded-lg">
-              Read More
+            <button className="text-white text-sm font-semibold bg-blue-400 hover:bg-blue-700 py-3 px-8 rounded-lg">
+              <a href="/blog">Read More</a>
             </button>
           </div>
         </div>
@@ -65,8 +65,8 @@ function LatestNews() {
           </div>
         </div>
         <div className=" lg:hidden flex justify-center mt-8">
-          <button className="text-white text-sm bg-blue-400 py-1 px-6 rounded">
-            Read More
+          <button className="text-white text-sm  bg-blue-400 hover:bg-blue-700 py-3 px-6 rounded-xl">
+            <a href="/blog">Read More</a>
           </button>
         </div>
       </div>
