@@ -20,7 +20,7 @@ function Offer() {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mx-8 lg:mx-14 lg:my-10">
-        <div className="border shadow-md">
+        <div className="border shadow-xl">
           <div className="flex justify-between">
             <img src="/images/grp1.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />
@@ -37,7 +37,7 @@ function Offer() {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="border shadow-xl">
           <div className="flex justify-between ">
             <img src="/images/grp3.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />
@@ -55,7 +55,7 @@ function Offer() {
           </div>
         </div>
 
-        <div className="border shadow-md">
+        <div className="border shadow-xl">
           <div className="flex justify-between">
             <img src="/images/grp4.svg" className="mt-10 ml-5 h-20" />
             <img src="/images/grp2.svg" className="h-20" />

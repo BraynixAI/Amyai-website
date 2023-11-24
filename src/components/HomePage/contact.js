@@ -19,7 +19,9 @@ function Contact() {
           </div>
           <div className="self-center">
             <button className="flex  items-center space-x-4 bg-blue-500 py-2 px-5 hover:bg-blue-700 rounded-md font-medium text-sm ">
-              <p className="font-medium text-base"> Contact Us</p>
+              <a href="contact_us" className="text-white font-medium text-base">
+                Contact
+              </a>
               <ArrowLongRightIcon className="w-5" />
             </button>
           </div>
@@ -43,7 +45,9 @@ function Contact() {
               </p>
             </div>
             <button className="bg-blue-500 px-4 hover:bg-blue-700 rounded-md font-medium text-sm ">
-              Contact Us
+              <a href="contact_us" className="text-white font-normal text-base">
+                Contact
+              </a>
             </button>
           </div>
         </div>

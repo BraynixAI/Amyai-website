@@ -3,6 +3,7 @@ import Collaboretion from "@/components/HomePage/collaboretion";
 import Contact from "@/components/HomePage/contact";
 import Discover from "@/components/HomePage/discover";
 import LatestNews from "@/components/HomePage/latest";
+import Newnav from "@/components/HomePage/newnav";
 import Offer from "@/components/HomePage/offer";
 import PotentialPage from "@/components/HomePage/potential";
 import Welcome from "@/components/HomePage/welcome";
@@ -23,6 +24,7 @@ function index() {
       <Collaboretion />
       <Contact />
       <FooterPage />
+      {/* <Newnav /> */}
     </div>
   );
 }

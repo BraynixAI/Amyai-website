@@ -8,12 +8,12 @@ function Collaboretion() {
       </div>
       <div className="flex flex-col justify-center items-center mb-5 -mt-16 lg:-mt-[19.5%]  bg-white w-4/5 p-5 lg:p-10 space-y-4 shadow-lg border rounded-md z-10 ">
         <div>
-          <img src="/images/Braynix.svg" />
+          <img src="/images/Braynix.svg" className="h-[100px]" />
         </div>
-        <p className="font-semibold lg:text-5xl text-2xl text-center lg:text-left">
+        <p className="font-semibold lg:text-4xl text-2xl text-center lg:text-left">
           Collaborating with BRAYNIXAI
         </p>
-        <p className="font-normal lg:text-base text-sm text-gray-500 text-center lg:mx-[10%]  ">
+        <p className="font-normal lg:text-base text-sm text-gray-500 text-center lg:mx-[15%]  ">
           Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
           claritatem insitamconse quat.Exerci tation ullamcorper suscipit
           lobortExerci tation ullamcorper suscipit lobortis nisl aliquip ex ea

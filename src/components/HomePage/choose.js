@@ -72,7 +72,7 @@ function Choose() {
               }`}
               onClick={() => handelOnClick(3)}
             >
-              Client-Centric Approach
+              Approach
             </button>
             {tab === 3 ? (
               <div className="triangle-down mx-auto "></div>
@@ -90,7 +90,7 @@ function Choose() {
               We have a team of experienced professionals in each of our focus
               areas
             </p>
-            <p className="text-gray-500 text-xs lg:w-[60%]">
+            <p className="text-gray-500 text-xs md:text-sm lg:w-[80%]">
               Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea
               commodo claritatem insitamconse quat.Exerci tation ullamcorper
               suscipit lobort

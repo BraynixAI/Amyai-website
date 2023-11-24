@@ -20,7 +20,7 @@ function PotentialPage() {
             </p>
           </div>
         </div>
-        <div className="md:col-span-2 shadow-lg rounded-lg flex justify-center items-center h-[223px]  ">
+        <div className="hidden md:block md:col-span-2 shadow-lg rounded-lg flex justify-center items-center h-[223px]  ">
           <img
             src="/images/calendar.svg"
             className="hidden md:block  rounded-3xl"
