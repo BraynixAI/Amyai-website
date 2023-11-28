@@ -41,7 +41,7 @@ function AppBar() {
       <div className="bg-[#000E29] lg:px-14 p-5 ">
         <div className="  flex justify-between items-center ">
           <div className="text-white text-lg font-bold ">
-            <img src="/images/amyai.svg" className="lg:h-14 h-10" />
+            <img src="images/amyai.svg" className="lg:h-14 h-10" />
           </div>
 
           <div className="flex h-12">
