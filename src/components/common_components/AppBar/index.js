@@ -11,20 +11,20 @@ const navigation = [
   },
   {
     name: "About-us ",
-    href: "/amyai/about",
+    href: "/about",
   },
   {
     name: "Service",
-    href: "/amyai/servicepage",
+    href: "/servicepage",
   },
 
   {
     name: "Blog",
-    href: "/amyai/blog",
+    href: "/blog",
   },
   {
     name: "Contact",
-    href: "/amyai/contact_us",
+    href: "/contact_us",
   },
 ];
 
