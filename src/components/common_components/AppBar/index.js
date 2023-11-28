@@ -10,7 +10,7 @@ const navigation = [
     href: "/",
   },
   {
-    name: "About-us ",
+    name: "About Us ",
     href: "about",
   },
   {
