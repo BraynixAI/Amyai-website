@@ -2,7 +2,15 @@
 
 const nextConfig = {
     // output:'export',
-    basePath:'/'
+    basePath:'/amyai',
+    async rewrites() {
+        return [
+          {
+            source: '/home',
+            destination: '/amyai',
+          },
+        ];
+      }
 
 
 
