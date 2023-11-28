@@ -13,7 +13,7 @@ function Database() {
   return (
     <div className=" flex flex-col">
       <div className=" overflow-hidden z-0">
-        <img src="/images/BusinessImage1.svg" />
+        <img src="images/BusinessImage1.svg" />
       </div>
       <div className="lg:-mt-40 lg:m-10 m-2 bg-white z-10 rounded-xl">
         <div className=" flex lg:space-x-10 lg:px-10 py-5">
@@ -31,7 +31,7 @@ function Database() {
                   type="submit"
                   class="absolute right-0 top-0 mt-3 mr-4 bg-gray-100"
                 >
-                  <img src="/images/search2.svg" />
+                  <img src="images/search2.svg" />
                 </button>
               </div>
             </div>
@@ -39,35 +39,35 @@ function Database() {
               <div className=" lg:space-y-8 space-y-4 my-10">
                 <div className="rounded-lg ">
                   <img
-                    src="/images/businessMedium.svg"
+                    src="images/businessMedium.svg"
                     className="rounded-xl hidden lg:block "
                   />
                   <img
-                    src="/images/businessSmall.svg"
+                    src="images/businessSmall.svg"
                     className="rounded-xl w-full  lg:hidden"
                   />
                 </div>
                 <div className="flex lg:space-x-10 justify-between lg:justify-start">
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/Vector.svg" />
+                    <img src="images/Vector.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       Alextina
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/icon.svg" />
+                    <img src="images/icon.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       Dec 28, 2022
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/sms2.svg" />
+                    <img src="images/sms2.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       (04) Coments
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/eye.svg" />
+                    <img src="images/eye.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       1,526 views
                     </p>
@@ -114,7 +114,7 @@ function Database() {
                     type="submit"
                     class="absolute right-0 top-0 mt-3 mr-4 bg-gray-100"
                   >
-                    <img src="/images/search2.svg" />
+                    <img src="images/search2.svg" />
                   </button>
                 </div>
               </div>
@@ -123,7 +123,7 @@ function Database() {
                 {[0, 1, 2, 3].map((item) => (
                   <div className="">
                     <div className="flex space-x-2">
-                      <img src="/images/recentblog.svg" />
+                      <img src="images/recentblog.svg" />
                       <div className="flex flex-col justify-between p-1">
                         <p className="font-semiboldt text-xs text-gray-500 ">
                           4 March. 2022

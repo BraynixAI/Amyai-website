@@ -28,15 +28,15 @@ function WhoWeAre() {
       <div className="md:w-1/2 flex md:flex-row flex-col-reverse md:justify-end">
         <div className="flex justify-center items-center ">
           <div className="bg-white rounded-full md:h-32 md:w-32 h-28 w-28 justify-center items-center flex p-2 -mt-14 md:mt-0 md:-mr-12 z-10">
-            <img src="/images/amyai.svg" className="" />
+            <img src="images/amyai.svg" className="" />
           </div>
         </div>
         <div className="overflow-hidden rounded-xl z-0 ">
           <img
-            src="/images/BusinessImage2.svg"
+            src="images/BusinessImage2.svg"
             className="md:h-auto hidden md:block "
           />
-          <img src="/images/Business24.svg" className="md:hidden" />
+          <img src="images/Business24.svg" className="md:hidden" />
         </div>
       </div>
     </div>

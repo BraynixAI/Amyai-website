@@ -6,10 +6,10 @@ function ContactUs() {
       <div className="md:m-10 m-5 ">
         <div>
           <img
-            src="/images/Map.svg"
+            src="images/Map.svg"
             className="hidden md:block h-auto w-full"
           />
-          <img src="/images/Map2.svg" className="md:hidden h-auto w-full" />
+          <img src="images/Map2.svg" className="md:hidden h-auto w-full" />
         </div>
         <div className="flex flex-col md:flex-row">
           <div className=" bg-white md:w-3/5 md:-mt-[40%] -mt-16 rounded-lg md:ml-10 md:shadow-lg mx-3 md:mx-0">
@@ -76,7 +76,7 @@ function ContactUs() {
               <div className="space-y-5 md:p-5 p-2 text-gray-700">
                 <div className="flex md:space-x-10  space-x-2 items-center">
                   <div>
-                    <img src="/images/location.svg" className="h-5" />
+                    <img src="images/location.svg" className="h-5" />
                   </div>
                   <p className="text-sm md:text-base">
                     Thailand - Mandalai, Main Street
@@ -84,13 +84,13 @@ function ContactUs() {
                 </div>
                 <div className="flex md:space-x-10 space-x-2 items-center">
                   <div>
-                    <img src="/images/cal.svg" className="h-4" />
+                    <img src="images/cal.svg" className="h-4" />
                   </div>
                   <p className="text-sm md:text-base">545-450-3059</p>
                 </div>
                 <div className="flex md:space-x-10 space-x-2 items-center">
                   <div>
-                    <img src="/images/sms.svg" className="h-3" />
+                    <img src="images/sms.svg" className="h-3" />
                   </div>
                   <p className="text-sm md:text-base">info@AgencyForce.com</p>
                 </div>
@@ -101,7 +101,7 @@ function ContactUs() {
             <div className="flex justify-center items-center md:hidden ">
               <div className=" mb-10 mt-5">
                 <div className="z-0 overflow-hidden mx-2 ">
-                  <img src="/images/Calltoaction.svg" className="w-full" />
+                  <img src="images/Calltoaction.svg" className="w-full" />
                 </div>
                 <div className="-mt-32 z-10 text-white text-center ">
                   <div className="justify-center items-center flex "></div>

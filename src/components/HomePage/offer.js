@@ -57,8 +57,8 @@ function Offer() {
 
         <div className="border shadow-xl">
           <div className="flex justify-between">
-            <img src="/images/grp4.svg" className="mt-10 ml-5 h-20" />
-            <img src="/images/grp2.svg" className="h-20" />
+            <img src="images/grp4.svg" className="mt-10 ml-5 h-20" />
+            <img src="images/grp2.svg" className="h-20" />
           </div>
           <div className="p-4 space-y-6">
             <p className="font-medium text-xl">Agile Approach</p>

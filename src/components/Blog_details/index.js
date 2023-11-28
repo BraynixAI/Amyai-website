@@ -5,7 +5,7 @@ function BlogDetails() {
     <div>
       <div className="flex flex-col">
         <div className="  overflow-hidden z-0">
-          <img src="/images/BusinessImage1.svg" />
+          <img src="images/BusinessImage1.svg" />
         </div>
 
         <div className="lg:-mt-40 lg:m-5 m-2 bg-white z-10 rounded-xl">
@@ -14,35 +14,35 @@ function BlogDetails() {
               <div className=" lg:space-y-8 space-y-4 my-2">
                 <div className="rounded-lg ">
                   <img
-                    src="/images/businessLarge.svg"
+                    src="images/businessLarge.svg"
                     className="rounded-xl hidden lg:block "
                   />
                   <img
-                    src="/images/businessSmall.svg"
+                    src="images/businessSmall.svg"
                     className="rounded-xl w-full  lg:hidden"
                   />
                 </div>
                 <div className="flex lg:space-x-10 justify-between lg:justify-start">
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/Vector.svg" />
+                    <img src="images/Vector.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       Alextina
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/icon.svg" />
+                    <img src="images/icon.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       Dec 28, 2022
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/sms2.svg" />
+                    <img src="images/sms2.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       (04) Coments
                     </p>
                   </div>
                   <div className="flex justify-center items-center lg:space-x-2">
-                    <img src="/images/eye.svg" />
+                    <img src="images/eye.svg" />
                     <p className="font-bold text-[11px] lg:text-sm text-gray-500 lg:uppercase lowercase">
                       1,526 views
                     </p>

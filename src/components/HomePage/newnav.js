@@ -18,42 +18,42 @@ const navigation = [
   {
     name: "Dashboard",
     href: "/dashboard",
-    icon: "/images/menu/dashboard.svg",
+    icon: "images/menu/dashboard.svg",
   },
   {
     name: "Account Management",
     href: "/account-management",
-    icon: "/images/menu/Admin Settings Male.svg",
+    icon: "images/menu/Admin Settings Male.svg",
   },
   {
     name: "Stakeholder Management",
     href: "/stakeholder-management",
-    icon: "/images/menu/pngfind 1.svg",
+    icon: "images/menu/pngfind 1.svg",
   },
   {
     name: "Order Management",
     href: "/order-management",
-    icon: "/images/menu/Purchase Order.svg",
+    icon: "images/menu/Purchase Order.svg",
   },
   {
     name: "Analytics",
     href: "/analytics",
-    icon: "/images/menu/analysis 1.svg",
+    icon: "images/menu/analysis 1.svg",
   },
   {
     name: "CMS",
     href: "/cms",
-    icon: "/images/menu/E-Learning.svg",
+    icon: "images/menu/E-Learning.svg",
   },
   {
     name: "Inventory Management",
     href: "/inventory-management",
-    icon: "/images/menu/Group.svg",
+    icon: "images/menu/Group.svg",
   },
   {
     name: "Support",
     href: "/support",
-    icon: "/images/menu/Technical Support.svg",
+    icon: "images/menu/Technical Support.svg",
   },
 ];
 const userNavigation = [

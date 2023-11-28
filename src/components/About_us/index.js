@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <img src="/images/BusinessImage1.svg" />
+      <img src="images/BusinessImage1.svg" />
     </div>
   );
 }
