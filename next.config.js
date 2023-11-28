@@ -6,8 +6,8 @@ const nextConfig = {
     async rewrites() {
         return [
           {
-            source: '/',
-            destination: '/amyai',
+            source: '/amyai',
+            destination: '/amyai/',
           },
         ];
       }
