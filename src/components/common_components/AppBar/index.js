@@ -7,7 +7,7 @@ import { XCircleIcon } from "@heroicons/react/24/outline";
 const navigation = [
   {
     name: "Home",
-    href: "/amyai",
+    href: "/",
   },
   {
     name: "About-us ",
