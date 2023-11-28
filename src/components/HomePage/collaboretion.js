@@ -4,12 +4,12 @@ function Collaboretion() {
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="overflow-hidden z-0 w-full ">
-        <img src="/images/group3716.svg" className="w-full" />
+        <img src="images/group3716.svg" className="w-full" />
       </div>
       <div className="flex flex-col justify-center items-center mb-5 -mt-16 lg:-mt-[19.5%]  bg-white w-4/5 p-5 lg:p-10 space-y-4 shadow-lg border rounded-md z-10 ">
         <div className="lg:hidden flex flex-col justify-center items-center space-y-4">
           <div>
-            <img src="/images/Braynix.svg" className="h-[100px]" />
+            <img src="images/Braynix.svg" className="h-[100px]" />
           </div>
           <p className="font-semibold lg:text-4xl text-2xl text-center lg:text-left">
             Collaborating with BRAYNIXAI
@@ -29,7 +29,7 @@ function Collaboretion() {
         <div className="hidden lg:block ">
           <div className="flex justify-between space-x-5">
             <div className="flex justify-center items-center ">
-              <img src="/images/Braynix.svg" className="h-[200px]" />
+              <img src="images/Braynix.svg" className="h-[200px]" />
             </div>
             <div className=" space-y-5">
               <p className="font-semibold lg:text-4xl text-2xl text-center lg:text-left">

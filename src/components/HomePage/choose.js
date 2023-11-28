@@ -12,7 +12,7 @@ function Choose() {
     <div className="my-20">
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#000E29] h-3/4 z-0 overflow-hidden">
         <div className="flex justify-center items-center mb-20 lg:mb-7 mx-12 mt-5 lg:mt-0 lg:mx-0 lg:w-1/2">
-          <img src="/images/group3703.svg" className="h-2/3" />
+          <img src="images/group3703.svg" className="h-2/3" />
         </div>
         <div className="flex justify-center lg:justify-start lg:w-1/2 lg:items-center">
           <div className="text-white text-center lg:text-left">
@@ -98,7 +98,7 @@ function Choose() {
           </div>
           <div className=" my-2 lg:my-5  lg:w-1/2 ">
             <div className="flex justify-center items-center">
-              <img src="/images/programmingbg.svg" className="rounded-lg" />
+              <img src="images/programmingbg.svg" className="rounded-lg" />
             </div>
           </div>
         </div>

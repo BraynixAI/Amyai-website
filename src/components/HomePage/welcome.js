@@ -23,7 +23,7 @@ function Welcome() {
           </p>
         </div>
         <div className="my-2 flex justify-center items-center">
-          <img src="/images/Illustration.svg" className="" />
+          <img src="images/Illustration.svg" className="" />
         </div>
         <div className="my-4 flex flex-col items-center space-y-4">
           <button className="bg-blue-500 hover:bg-blue-700 font-semibold text-white rounded-lg px-6 py-2">
@@ -64,7 +64,7 @@ function Welcome() {
             </div>
           </div>
           <div className="md:col-span-5 flex justify-end">
-            <img src="/images/Illustration.svg" />
+            <img src="images/Illustration.svg" />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ function FooterPage() {
       <footer class="bg-white dark:bg-gray-900 px-5">
         <div class="pb-6 pt-16 sm:px-6 lg:px-8">
           <div className="md:my-5 mb-5">
-            <img src="/images/amyai.svg" />
+            <img src="images/amyai.svg" />
           </div>
           <div class="flex md:flex-row md:justify-between flex-col-reverse gap-4 border-t border-gray-500">
             <div class=" bg-gray-900 ">

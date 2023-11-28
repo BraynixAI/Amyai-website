@@ -12,7 +12,7 @@ function Discover() {
       <div className="grid md:grid-cols-2 lg:gap-2 gap-10 ">
         <div className="flex items-center space-x-5">
           <div>
-            <img src="/images/yellowRound.svg" className="h-16" />
+            <img src="images/yellowRound.svg" className="h-16" />
           </div>
           <div className="space-y-2">
             <p className="font-bold text-lg">Alexandro Pierre</p>
@@ -22,10 +22,10 @@ function Discover() {
         <div className="flex  lg:justify-end justify-center ">
           <div className="flex lg:justify-end space-x-2">
             <button>
-              <img src="/images/Left.svg" className="h-8" />
+              <img src="images/Left.svg" className="h-8" />
             </button>
             <button>
-              <img src="/images/Right.svg" className="h-8" />
+              <img src="images/Right.svg" className="h-8" />
             </button>
           </div>
         </div>

@@ -37,13 +37,13 @@ function LatestNews() {
         <div className="grid md:grid-cols-2 gap-4">
           <div className="grid grid-rows-2 gap-4 md:mb-20">
             <div className="p-2 border rounded-lg ">
-              <img src="/images/img1.svg" className="w-full" />
+              <img src="images/img1.svg" className="w-full" />
               <p className="font-normal mt-2">
                 Automation-led Sustainable Cost Takeout
               </p>
             </div>
             <div className="p-2 border rounded-lg">
-              <img src="/images/rectangle1.svg" className="w-full" />
+              <img src="images/rectangle1.svg" className="w-full" />
               <p className="font-normal mt-2">
                 Automation-led Sustainable Cost Takeout
               </p>
@@ -51,13 +51,13 @@ function LatestNews() {
           </div>
           <div className="grid grid-rows-2 gap-4 md:mt-20">
             <div className="p-2  border rounded-lg">
-              <img src="/images/rectangle1.svg" className="w-full" />
+              <img src="images/rectangle1.svg" className="w-full" />
               <p className="font-normal mt-2">
                 Automation-led Sustainable Cost Takeout
               </p>
             </div>
             <div className="p-2 border rounded-lg">
-              <img src="/images/img1.svg" className="w-full" />
+              <img src="images/img1.svg" className="w-full" />
               <p className="font-normal mt-2">
                 Automation-led Sustainable Cost Takeout
               </p>

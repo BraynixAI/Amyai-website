@@ -6,7 +6,7 @@ function Contact() {
     <div>
       <div className="mt-20 mb-32 hidden md:block mx-10">
         <div className=" overflow-hidden z-0">
-          <img src="/images/action.svg" className="w-full" />
+          <img src="images/action.svg" className="w-full" />
         </div>
         <div className="flex space-x-5 px-10 z-10 overflow-hidden  md:-mt-36 text-white">
           <div className="space-y-3 w-3/4">
@@ -30,7 +30,7 @@ function Contact() {
       <div className="flex justify-center items-center md:hidden ">
         <div className=" mb-10 mt-5">
           <div className="z-0 overflow-hidden mx-2 ">
-            <img src="/images/Calltoaction.svg" className="w-full" />
+            <img src="images/Calltoaction.svg" className="w-full" />
           </div>
           <div className="-mt-36 z-10 text-white text-center ">
             <div className="justify-center items-center flex "></div>

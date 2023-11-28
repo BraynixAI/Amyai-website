@@ -78,7 +78,7 @@ function AppBar() {
               <div className=" flex items-center  -ml-4">
                 <div className="border border-white rounded-full p-1 border-l-transparent h-12 w-12">
                   <button className="h-full w-full flex justify-center items-center">
-                    <img src="/images/phone.svg" className="h-7 w-7  " />
+                    <img src="images/phone.svg" className="h-7 w-7  " />
                   </button>
                 </div>
               </div>

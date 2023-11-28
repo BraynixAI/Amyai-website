@@ -14,7 +14,7 @@ function PotentialPage() {
       <div className="grid md:grid-cols-4 gap-5 justify-center bg-unlock-bg bg-cover p-5 my-5">
         <div className="col-span-1 shadow-lg rounded-lg flex justify-center items-center h-[150px] lg:h-[223px] p-10 border">
           <div className=" flex flex-col justify-center items-center space-y-5 ">
-            <img src="/images/project.svg" className="w-10" />
+            <img src="images/project.svg" className="w-10" />
             <div>
               <p className="text-center text-sm font-semibold">Project</p>
               <p className="text-center text-sm font-semibold">Management</p>
@@ -23,22 +23,22 @@ function PotentialPage() {
         </div>
         <div className="hidden md:block md:col-span-2 shadow-lg rounded-lg flex justify-center items-center h-[150px] lg:h-[223px]  ">
           <img
-            src="/images/calendar.svg"
+            src="images/calendar.svg"
             className="hidden md:block  rounded-3xl"
           />
-          <img src="/images/calendar2.svg" className="md:hidden " />
+          <img src="images/calendar2.svg" className="md:hidden " />
           {/* </div> */}
         </div>
         <div className="col-span-1 shadow-lg rounded-lg flex justify-center items-center h-[150px] lg:h-[223px] p-10 border">
           <div className=" flex flex-col justify-center items-center space-y-5 ">
-            <img src="/images/scrum.svg" className="w-10" />
+            <img src="images/scrum.svg" className="w-10" />
             <p className="text-center text-sm font-semibold ">Scrum Master</p>
           </div>
         </div>
         <div className=" backdrop-blur-xl"></div>
         <div className="col-span-1 shadow-lg rounded-lg flex justify-center items-center h-[150px] lg:h-[223px] p-10 border bg-white/40 backdrop-blur-lg ">
           <div className=" flex flex-col justify-center items-center space-y-5 ">
-            <img src="/images/scrum.svg" className="w-10" />
+            <img src="images/scrum.svg" className="w-10" />
             <div>
               <p className="text-center text-sm font-semibold">Java/J2EE</p>
               <p className="text-center text-sm font-semibold"> Solutions</p>
@@ -47,7 +47,7 @@ function PotentialPage() {
         </div>
         <div className="col-span-1 shadow-lg rounded-lg flex justify-center items-center h-[150px] lg:h-[223px] p-10 border bg-white/30 backdrop-blur-lg ">
           <div className=" flex flex-col justify-center items-center space-y-5 ">
-            <img src="/images/scrum.svg" className="w-10" />
+            <img src="images/scrum.svg" className="w-10" />
             <div>
               <p className="text-center  text-sm font-semibold">
                 Data Science/
