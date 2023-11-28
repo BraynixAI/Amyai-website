@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
     "lint": "next lint"
   },
   "engines": {
@@ -16,7 +17,8 @@
     "@heroicons/react": "^2.0.18",
     "next": "14.0.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "serve": "^13.0.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
