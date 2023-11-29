@@ -3,7 +3,7 @@ import React from "react";
 function FooterPage() {
   return (
     <div className="">
-      <footer class="bg-white dark:bg-gray-900 px-5">
+      <footer class="bg-gray-900 px-5">
         <div class="pb-6 pt-16 sm:px-6 lg:px-8">
           <div className="md:my-5 mb-5">
             <img src="images/amyai.svg" />
@@ -288,7 +288,7 @@ function FooterPage() {
 
           <div class="mt-8 border-t border-gray-500 pt-6  sm:flex sm:items-center sm:justify-between">
             <p class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
-              © 2022 Insurance website. All Rights Reserved.
+              © 2023 Amyai. All Rights Reserved.
             </p>
             <p class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
               Scrool Top

@@ -19,7 +19,7 @@ function Offer() {
           </p> */}
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mx-8 lg:mx-14 lg:my-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mx-8 lg:mx-14 lg:my-10   ">
         <div className="border shadow-xl">
           <div className="flex justify-between">
             <img src="images/grp1.svg" className="mt-10 ml-5 h-20" />
